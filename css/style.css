@@ -78,6 +78,7 @@ a {
 
 /* #home01 */
 #home01 {
+  height: 100%;
   background-image: url('../images/images01.jpg')
 }
 #home01 .page-contenttop {
@@ -101,17 +102,24 @@ a {
   box-sizing: border-box;
   padding: 0 5% 0 5%;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: calc(100% - 140px - 95px);
 }
 #home01 .page-content .link-list {
   font-size: 45px;
   line-height: 60px;
+  list-style-type: circle;
 }
 #home01 .page-content .link-list li {
   display: inline;
 }
-#home01 .page-content .link-list li:after {
+#home01 .page-content .link-list li:before {
   content: " / ";
 }
-#home01 .page-content .link-list li:last-child:after {
+#home01 .page-content .link-list li:first-child:before {
   content: "";
+}
+#home01 .page-content .link-list li a {
+  display: inline-block;
 }
