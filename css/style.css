@@ -100,16 +100,15 @@ a {
 }
 #home01 .page-content {
   box-sizing: border-box;
-  padding: 0 5% 0 5%;
+  padding: 20px 5% 0 5%;
   text-align: center;
   position: relative;
   overflow: hidden;
   height: calc(100% - 140px - 95px);
 }
 #home01 .page-content .link-list {
-  font-size: 45px;
+  font-size: 40px;
   line-height: 60px;
-  list-style-type: circle;
 }
 #home01 .page-content .link-list li {
   display: inline;
@@ -121,5 +120,169 @@ a {
   content: "";
 }
 #home01 .page-content .link-list li a {
+  display: inline-block;
+}
+
+/* #home02 */
+#home02 {
+  height: 100%;
+  background-image: url('../images/images01.jpg')
+}
+#home02 .page-contenttop {
+  box-sizing: border-box;
+  padding: 70px 5%;
+}
+#home02 .page-contenttop .toplogo {
+  float: left;
+}
+#home02 .page-contenttop .page-list {
+  float: right;
+  padding: 0;
+  font-size: 20px;
+  line-height: 0;
+}
+#home02 .page-contenttop .page-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#home02 .page-content {
+  box-sizing: border-box;
+  padding: 300px 9% 0 9%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: calc(100% - 140px - 95px);
+}
+#home02 .page-content .link-list {
+  font-size: 40px;
+  line-height: 60px;
+}
+#home02 .page-content .link-list li {
+  display: inline;
+}
+#home02 .page-content .link-list li:before {
+  content: " / ";
+}
+#home02 .page-content .link-list li:first-child:before {
+  content: "";
+}
+#home02 .page-content .link-list li a {
+  display: inline-block;
+}
+
+/* #home03 */
+#home03 {
+  height: 100%;
+  background-image: url('../images/images01.jpg')
+}
+#home03 .page-contenttop {
+  box-sizing: border-box;
+  padding: 70px 5%;
+}
+#home03 .page-contenttop .toplogo {
+  float: left;
+}
+#home03 .page-contenttop .page-list {
+  float: right;
+  padding: 0;
+  font-size: 20px;
+  line-height: 0;
+}
+#home03 .page-contenttop .page-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#home03 .page-content {
+  box-sizing: border-box;
+  padding-left: 5%;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  height: calc(100% - 140px - 95px);
+}
+#home03 .page-content .link-list {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+/* #home04 */
+#home04 {
+  height: 100%;
+  background-image: url('../images/images01.jpg')
+}
+#home04 .page-contenttop {
+  box-sizing: border-box;
+  padding: 70px 5%;
+}
+#home04 .page-contenttop .toplogo {
+  float: left;
+}
+#home04 .page-contenttop .page-list {
+  float: right;
+  padding: 0;
+  font-size: 20px;
+  line-height: 0;
+}
+#home04 .page-contenttop .page-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#home04 .page-content {
+  box-sizing: border-box;
+  padding-right: 5%;
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+  height: calc(100% - 140px - 95px);
+}
+#home04 .page-content .link-list {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+/* #home05 */
+#home05 {
+  height: 100%;
+  background-image: url('../images/images01.jpg')
+}
+#home05 .page-contenttop {
+  box-sizing: border-box;
+  padding: 70px 5%;
+}
+#home05 .page-contenttop .toplogo {
+  float: left;
+}
+#home05 .page-contenttop .page-list {
+  float: right;
+  padding: 0;
+  font-size: 20px;
+  line-height: 0;
+}
+#home05 .page-contenttop .page-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#home05 .page-content {
+  box-sizing: border-box;
+  padding: 100px 20% 0 20%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: calc(100% - 140px - 95px - 110px);
+}
+#home05 .page-content .link-list {
+  font-size: 32px;
+  line-height: 45px;
+}
+#home05 .page-content .link-list li {
+  display: inline;
+}
+#home05 .page-content .link-list li:before {
+  content: " / ";
+}
+#home05 .page-content .link-list li:first-child:before {
+  content: "";
+}
+#home05 .page-content .link-list li a {
   display: inline-block;
 }
