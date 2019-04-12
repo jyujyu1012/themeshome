@@ -28,7 +28,7 @@
     </div><!-- .page-contenttop -->
     <div class="page-content">
         <ul class="link-list">
-            <li><a href="#">Five Years</a></li>
+            <li><a class="target" href="#">Five Years</a></li>
             <li><a href="#">Soul Love</a></li>
             <li><a href="#">Moonage Daydream</a></li>
             <li><a href="#">Starman</a></li>
@@ -245,6 +245,11 @@
         </ul>
     </div><!-- .page-content -->
 </div><!-- #home05.page -->
-
+<script type="text/javascript">
+BackgroundCheck.init({
+	/*ここに要素を指定*/
+	targets: '.target'
+});
+</script>
 </body>
 </html>

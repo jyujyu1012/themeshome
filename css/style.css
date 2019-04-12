@@ -61,6 +61,13 @@ a {
   text-decoration: none;
 }
 
+a.background–light {
+color: black;
+}
+a.background–dark {
+color: white;
+}
+
 /* .page */
 /* min-heightは100%でページ内容が100％を超えたら縦に伸びるというマークアップ
    一個外にマークアップ用のdivを挟むとうまくいく
